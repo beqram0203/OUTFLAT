@@ -1,0 +1,532 @@
+html,body{
+    width: 100%;    
+    margin: 0px;
+}
+header{
+    background-color: rgb(2, 186, 186);
+    border-bottom: solid 2px;
+    border-bottom-color: rgb(0, 155, 103);
+    width: 100%;
+    height: 50px;
+    
+}
+
+.logo{
+    margin: 0px;
+    float: left;
+    margin-left: 10%;
+ 
+}
+.logo p{
+    
+    margin: 0px;
+    
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 5px;
+    width: auto;
+    white-space: nowrap;
+}
+
+
+.nav{
+    float:right;
+    margin-right: 10%;
+    margin-left: 0px;
+}
+.nav ul{
+    list-style: none;
+    white-space: nowrap;
+    margin-left: 0px;
+
+}
+.nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 13px;
+}
+.nav ul li:nth-child(1){
+    margin-left: 0px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+.nav ul li:hover{
+    border-bottom: solid 2px white;
+}
+.nav ul li:last-child a{
+    padding: 4px;
+    border-radius: 3px;
+    border: solid 1px white;
+}
+.nav ul li:last-child{
+    padding-bottom: 6px;
+}
+
+
+.rav{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(95, 170, 116);
+}
+.rav div{
+    position: relative;
+    top:30px;
+    white-space: nowrap;
+}
+.rav div p:nth-child(1){
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    text-align-last: center;
+}
+.rav div p:nth-child(2){
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+
+.region{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.region ul{
+    width: fit-content;
+    list-style: none;
+    
+}
+.region ul li{
+    float: left;
+    text-align: center;
+
+}
+.region ul li a{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.region ul li a:hover{
+    color:red;
+}
+.region ul li:last-child a{
+    background-color: rgb(62, 112, 77);
+    opacity: 0.8;
+}
+
+
+.slide{
+    height: inherit;
+    width: 60%;
+    margin:0 auto;
+    
+    position: relative;
+    top:-40px;
+    display: flex;
+}
+.body{
+    width: 100%;
+    height: 350px  !important;
+    background-color: aqua;
+}
+.pic{
+    width:50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.pic img{
+    width: 97% !important;
+    height: 100%  !important;
+
+}
+.pic p{
+    background-color: red;
+    padding: 5px;
+    padding-right: 15px;
+    float: right;
+    position: relative;
+    top:-80px;
+    border-radius: 3px;
+    color: white;
+}
+.inf{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+}
+
+.inf div h4{
+    margin-top: 0px;
+    padding-top: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+.inf div h6{
+    margin:0;
+    margin-left: 10px;
+}
+.inf div img{
+    width: 30px !important;
+    height: 30px !important;
+    position: relative;
+    top: -40px;
+    float: right;
+    margin-right: 10%;
+    padding: 7px;
+    border:solid 1px gray;
+    border-radius: 5px;
+}
+.inf div:nth-child(1){
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-right:10px;
+    border-bottom: solid 2px gray;
+}
+.more{
+    clear: both;
+}
+.more span{
+    background-color: red;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    color: white;
+}
+.cat{
+   margin-left: 10px;
+   font-size: 15px;
+   display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.cat p{
+    float: left;
+}
+.cat2{
+    margin-left: 10px;
+   font-size: 15px;
+   display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.cat2 p{
+    float: left;
+}
+.cat3{
+    width:100%;
+    height: 105px;
+    background-color: rgb(226, 226, 226);
+}
+.cat3 div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.cat3 h4{
+    color: red;
+}
+.cat3 div p{
+    float: left;
+    margin-top: 5px;
+    
+}
+
+
+
+.suggest{
+    background-color:rgba(211, 211, 211, 0.768);
+    
+    width: 100%;
+    height: 230px;
+    position: relative;
+    top: -60px;
+}
+.suggest ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    margin: 0px;
+
+    
+}
+.suggest ul li{
+    float: left;
+    margin:0px  6% 0px 6%;
+    align-content: center; 
+    
+}
+.cicle{
+    border: solid 0.5px;
+    background-color:rgba(255, 255, 255);
+    border-color:white;
+    width: 80px;
+    height: 80px;
+    border-radius: 360px;
+    display: block;
+    box-shadow: 5px 5px 5px rgba(158, 158, 158, 0.583);
+    
+}
+.cicle2{
+ border: solid 0.5px;
+ background-color:rgba(255, 255, 255);
+ border-color: gray;
+ width: 25px;
+ height: 25px;
+ border-radius: 360px;
+ display: block;
+ text-align: center;
+ position: static;
+ margin: auto;
+ margin-top: 27.5px;
+
+}
+.cicle2 i{
+    
+    color:red;
+    position: static;
+    margin-top: 4px;
+    
+}
+.suggest ul li h6{
+    margin-top: 10px ;
+    color: rgb(83, 84, 84);
+    
+    text-align: center;
+    text-align-last: center;
+}
+
+
+.jus{
+    width: 70%;
+    height: 100px;
+    background-color: rgb(233, 41, 61);
+    box-shadow: 5px 5px 20px rgba(158, 158, 158, 0.583);
+    position: relative;
+    top: -130px;
+    margin-left: 15%;
+    display: block;
+    text-align: center;
+}
+.jus h4{
+    color: white;
+    text-align: start;
+    position: relative;
+    top: 40px;
+    
+    text-align: center;
+}
+.jus h4 span{
+    border: solid 1px white;
+    border-radius: 60px;
+    background-color: white;
+    color:rgb(233, 41, 61);
+    padding: 8px;
+    
+    margin-left: 10%;
+    font-size: 10px;
+    
+    width: 100px;
+    white-space: nowrap;
+    display:inline-block;
+}
+.line{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    position: static;
+}
+.line div:nth-child(1){
+    
+    width: 5%;
+    height: 15px;
+    background-color: red;
+    float: left;
+}
+.line p{
+    position: relative;;
+    top: -5px;
+    margin: -10px;
+    margin-top: 0px;
+    font-size: 20px;
+    float: left;
+    background-color: white;
+    padding: 4px;
+    padding-top: 0px;
+}
+.line div:last-child{
+    
+    margin-right: 0px;
+    width: 95%;
+    height: 15px;
+    background-color: gray;
+    float: left;
+}
+
+
+.container{
+    clear: both;
+    display: block;
+    width: 80%;
+    margin-top:50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-around;
+    
+}
+
+.frame{
+    min-width: 300px;
+    max-width: 300px;
+    height: 350px;
+    background-color: white;
+    
+    
+    margin-left: 0px;
+    margin: 20px;
+    border-radius: 3px;
+}
+.img img{
+    width: 100%;
+    height: 200px;
+}
+
+.img  p{
+    position: relative;
+    top: -195px;
+    left: 0px;
+    width: fit-content;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.raden{
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 4px;
+    padding: 4px;
+}
+.spa{
+    color: red;
+}
+.info{
+    position: relative;
+    top: -70px;
+    border: solid 1px gray;
+    border-top: none;
+    width: 100% -1px;
+    height: 166px;
+    border-radius: 4px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+
+}
+.info div{
+    width: 100%;
+}
+.info div h4{
+    margin-top: 0px;
+    padding-top: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.info div h6{
+    margin:0;
+    margin-left: 10px;
+}
+.info div img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    float: right;
+    margin-right: 10%;
+    padding: 7px;
+    border:solid 1px gray;
+    border-radius: 5px;
+}
+.price h4{
+    margin-bottom: 0px;
+    color: red;
+}
+.price div p:nth-child(1){
+    margin-top: 0px;
+    margin-left: 10px;
+    float:left;
+    font-size: 13px;
+}
+.price div p:nth-child(2){
+    margin: 0px;
+    margin-right: 10px;
+    margin-top:3px;
+    float:right;
+    font-size: 10px;
+    overflow: hidden;
+}
+.loc{
+    
+    height: 30px;
+    background-color: rgb(211, 211, 211);
+    clear: both;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+ico{
+    
+    float: left;
+    
+}
+.loc p{
+    margin: 3px;
+    font-size: 10px;
+    float: left;
+    overflow: hidden;
+}
+.tim{
+    
+    height: 100%;
+    width: 35px !important;
+    float: right;
+    border-left: solid 1px gray;
+    
+}
+.ico2{
+    
+    position: relative;
+    left: 8px;
+    top: 7px;
+   
+}
